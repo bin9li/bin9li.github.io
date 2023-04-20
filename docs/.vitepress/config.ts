@@ -99,7 +99,7 @@ export default defineConfig({
     logo: '/images/logo.png',
 
     editLink: {
-      pattern: 'https://github.com/bin9li/vite/edit/main/docs/:path',
+      pattern: 'https://github.com/bin9li/bin9li.github.io/master/docs/:path',
       text: '编辑此页',
     },
 
