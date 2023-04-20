@@ -1,4 +1,4 @@
-import defineConfig from 'vitepress'
+import { defineConfig } from 'vitepress'
 
 const ogDescription = 'DataLab | 数据实验室'
 const ogImage = '/images/logo.png'
@@ -51,6 +51,9 @@ export default defineConfig({
       level: 'deep',
       label: '本页目录'
     },
+    darkModeSwitchLabel: '外观',
+    returnToTopLabel: '返回顶部',
+    lastUpdatedText: '上次更新',
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/bin9li/bin9li.github.io/' },
