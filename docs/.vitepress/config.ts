@@ -1,65 +1,9 @@
-import { defineConfig, DefaultTheme } from 'vitepress'
+import defineConfig from 'vitepress'
 
 const ogDescription = 'DataLab | 数据实验室'
 const ogImage = '/images/logo.png'
 const ogTitle = 'DataLab'
 const ogUrl = ''
-
-// netlify envs
-// const deployURL = process.env.DEPLOY_PRIME_URL || ''
-// const commitRef = process.env.COMMIT_REF?.slice(0, 8) || 'dev'
-
-// const deployType = (() => {
-//   switch (deployURL) {
-//     case 'https://main--vite-docs-main.netlify.app':
-//       return 'main'
-//     case '':
-//       return 'local'
-//     default:
-//       return 'release'
-//   }
-// })()
-// const additionalTitle = ((): string => {
-//   switch (deployType) {
-//     case 'main':
-//       return ' (main branch)'
-//     case 'local':
-//       return ' (local)'
-//     case 'release':
-//       return ''
-//   }
-// })()
-// const versionLinks = ((): DefaultTheme.NavItemWithLink[] => {
-//   switch (deployType) {
-//     // case 'main':
-//     case 'local':
-//       return [
-//         {
-//           text: 'Vite 4 Docs (release)',
-//           link: 'https://vitejs.dev',
-//         },
-//         {
-//           text: 'Vite 3 Docs',
-//           link: 'https://v3.vitejs.dev',
-//         },
-//         {
-//           text: 'Vite 2 Docs',
-//           link: 'https://v2.vitejs.dev',
-//         },
-//       ]
-//     case 'release':
-//       return [
-//         {
-//           text: 'Vite 3 Docs',
-//           link: 'https://v3.vitejs.dev',
-//         },
-//         {
-//           text: 'Vite 2 Docs',
-//           link: 'https://v2.vitejs.dev',
-//         },
-//       ]
-//   }
-// })()
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -99,12 +43,17 @@ export default defineConfig({
     logo: '/images/logo.png',
 
     editLink: {
-      pattern: 'https://github.com/bin9li/bin9li.github.io//edit/master/docs/:path',
+      pattern: 'https://github.com/bin9li/bin9li.github.io/edit/master/docs/:path',
       text: '在 Github 上编辑此页',
+    },
+    
+    outline: {
+      level: 'deep',
+      label: '本页目录'
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/bin9li' },
+      { icon: 'github', link: 'https://github.com/bin9li/bin9li.github.io/' },
     ],
 
     // algolia: {
