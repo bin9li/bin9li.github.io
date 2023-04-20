@@ -12,6 +12,7 @@ export default defineConfig({
 
   lastUpdated: true,
   cleanUrls: true,
+  returnToTop: true,
 
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/images/logo.png' }],
