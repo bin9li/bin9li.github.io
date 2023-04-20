@@ -99,8 +99,8 @@ export default defineConfig({
     logo: '/images/logo.png',
 
     editLink: {
-      pattern: 'https://github.com/bin9li/bin9li.github.io/master/docs/:path',
-      text: '编辑此页',
+      pattern: 'https://github.com/bin9li/bin9li.github.io//edit/master/docs/:path',
+      text: '在 Github 上编辑此页',
     },
 
     socialLinks: [
