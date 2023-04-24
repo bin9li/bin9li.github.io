@@ -5,8 +5,8 @@ title: DataLab
 titleTemplate: 数据实验室
 
 hero:
-  name: DataLab
-  text: 数据实验室
+  name: DataHut
+  text: 数据小屋
   tagline: 大数据技术研究与实践记录。
   image:
     src: /images/logo.png
