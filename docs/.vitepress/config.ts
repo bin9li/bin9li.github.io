@@ -7,7 +7,7 @@ const ogUrl = ''
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'DataLab | 数据实验室',
+  title: 'DataHut | 数据小屋',
   description: '大数据技术研究与实践记录',
 
   lastUpdated: true,
